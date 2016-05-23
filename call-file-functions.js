@@ -4,11 +4,11 @@ const async = require('async')
 	, jade = require('jade')
 
 gt = 
-	{name:"McGee Tree 30"
-	, lat:"39.182735"
-	, long:"120.211215"
-	, transmitter_height:"30"
-	, groundcover_height:"0"
+	{name:"boca-hill"
+	, lat:"39.378263"
+	, long:"120.115933"
+	, transmitter_height:"75"
+	, groundcover_height:"10"
 	}
 
 //writes .qth config file for consumption by Splat! HD
