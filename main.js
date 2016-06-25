@@ -1,7 +1,7 @@
 const async = require('async')
 	, fs = require('fs')
 	, exec = require('child_process').exec
-	, jade = require('jade')
+	, jade = require('pug')
 
 gt = 
 	{

@@ -1,0 +1,25 @@
+{
+  "name": "splat-wrapper",
+  "version": "1.0.0",
+  "description": "wrapper for generating kml viewsheds with splat-hd",
+  "main": "main.js",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "jade": "^1.11.0",
+    "pug": "^2.0.0-beta3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ertw/splat-wrapper.git"
+  },
+  "author": "Erik Williamson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ertw/splat-wrapper/issues"
+  },
+  "homepage": "https://github.com/ertw/splat-wrapper#readme"
+}

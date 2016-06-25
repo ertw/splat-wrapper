@@ -3,7 +3,7 @@ This is a wrapper around Splat! HD.  It adds helpful functionality:
 * Take care of generating clean KML and PNG for use in Google Earth.
 * Specify output color of viewshed bitmap.
 
-Currently the following setting must be configured by editing call-file-functions.js:
+Currently the following setting must be configured by editing main.js:
 
 
 name:"site-name"
