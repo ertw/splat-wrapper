@@ -4,9 +4,9 @@ const async = require('async')
 	, jade = require('jade')
 
 gt = 
-	{name:"boca-hill"
-	, lat:"39.378263"
-	, long:"120.115933"
+	{name:"grass-valley"
+	, lat:"39.0"
+	, long:"121.0"
 	, transmitter_height:"75"
 	, groundcover_height:"10"
 	}
