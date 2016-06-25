@@ -1,0 +1,28 @@
+doctype xml
+kml(xmlns='http://earth.google.com/kml/2.1')
+	Folder
+		GroundOverlay
+			name #{name} overlay
+			Icon
+				href transmit_coverage.png
+			LatLonBox
+				north 39.99972
+				south 39.00000
+				east -120.00028
+				west -121.00000
+				rotation 0.0
+		Placemark
+			name #{name} marker
+			visibility 1
+			Style
+				IconStyle
+					Icon
+						href root://icons/palette-5.png
+						x 224
+						y 224
+						w 32
+						h 32
+			Point
+				extrude 1
+				altitudeMode relativeToGround
+				coordinates -#{long},#{lat},#{height}

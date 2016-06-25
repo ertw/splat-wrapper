@@ -1,7 +1,7 @@
 const async = require('async')
 	, fs = require('fs')
 	, exec = require('child_process').exec
-	, jade = require('pug')
+	, pug = require('pug')
 
 gt = 
 	{
@@ -67,14 +67,14 @@ function convertBitmap(convertBitmapCallback) {
 }
 
 //creates a clean .kml file for consumption by Google Earth
-//templatized with Jade
+//templatized with Pug
 var kml = 'test'
 function cleanKML(cleanKMLCallback) {
-	fs.readFile('./transmit_coverage.jade', 'utf8', function (err, data) {
+	fs.readFile('./kml_template.pug', 'utf8', function (err, data) {
 	if (err) {
 		cleanKMLCallback(err)
 	} else {
-		var fn = jade.compile(data)
+		var fn = pug.compile(data)
 		var kml = fn({name:gt.name, lat: gt.lat, long: gt.long, height: gt.transmitter_height})
 		
 		//export cleaned .kml to disk
