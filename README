@@ -1,1 +1,16 @@
-This is a wrapper around Splat! HD
+This is a wrapper around Splat! HD.  It adds helpful functionality:
+
+* Take care of generating clean KML and PNG for use in Google Earth.
+* Specify output color of viewshed bitmap.
+
+Currently the following setting must be configured by editing call-file-functions.js:
+
+
+name:"site-name"
+lat:"00.000000"
+long:"00.000000"
+//transmitter height in feet
+transmitter_height:"30"
+groundcover_height:"10"
+//color to use for viewshed bitmap
+bitmap_color: "#FF0000"

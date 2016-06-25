@@ -4,12 +4,18 @@ const async = require('async')
 	, jade = require('jade')
 
 gt = 
-	{name:"grass-valley"
-	, lat:"39.0"
-	, long:"121.0"
-	, transmitter_height:"75"
+	{
+	//site name
+	  name:"far-far-a-way"
+	, lat:"39.075103"
+	, long:"120.988396"
+	//height of transmitter
+	, transmitter_height:"30"
 	, groundcover_height:"10"
+	//color to use for viewshed bitmap
+	, bitmap_color: "#FF0000"
 	}
+
 
 //writes .qth config file for consumption by Splat! HD
 function writeFile(writeFileCallback) {
@@ -46,7 +52,7 @@ function execSplat(execSplatCallback) {
 
 //converts .ppm bitmap to .png
 function convertBitmap(convertBitmapCallback) {
-	var convertCommand = './convert -transparent "#FFFFFF" ./transmit_coverage.ppm ./transmit_coverage.png'
+	var convertCommand = `./convert -transparent "#FFFFFF" -fill "${gt.bitmap_color}" -opaque "#00FF00" ./transmit_coverage.ppm ./transmit_coverage.png`
 	console.log(convertCommand)
 	exec(convertCommand, function (err, stdout, stderr) {
 		if (err) {
