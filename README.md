@@ -21,4 +21,4 @@ groundcover_height:"10"
 bitmap_color: "#FF0000"
 
 ## Example output
-![viewshed example](https://lh3.googleusercontent.com/Jl_ylfnZ8sTjfOjc2m0LITNeAcZzqNoU14EPC2qisl_LsWRt03qa0WkRjMUM6a_0ul9erMYQyMdlj71JHgMfrNHwmd-4HTeMhjRO=w1362-h622-rw)
+![viewshed example](https://dl.dropboxusercontent.com/u/19112553/hosted/viewshed.png)
