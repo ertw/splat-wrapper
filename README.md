@@ -8,6 +8,8 @@ This is a wrapper around [Splat! HD](http://www.qsl.net/kd2bd/splat.html).  It a
 
 `cd splat-wrapper`
 
+`npm i`
+
 `node main.js`
 
 ## Configuration
