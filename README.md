@@ -1,17 +1,14 @@
 # splat-wrapper
-
-This is a wrapper around Splat! HD.  It adds helpful functionality:
+This is a wrapper around [Splat! HD](http://www.qsl.net/kd2bd/splat.html).  It adds helpful functionality:
 * Take care of generating clean KML and PNG for use in Google Earth.
 * Specify output color of viewshed bitmap.
 
 ## Installation & Execution
-
-git clone https://github.com/ertw/splat-wrapper.git
-cd splat-wrapper
-node main.js
+`git clone https://github.com/ertw/splat-wrapper.git`
+`cd splat-wrapper`
+`node main.js`
 
 ## Configuration
-
 Currently the following setting must be configured by editing main.js:
 
 name:"site-name"
