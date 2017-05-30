@@ -5,12 +5,14 @@ This is a wrapper around [Splat! HD](http://www.qsl.net/kd2bd/splat.html).  It a
 
 ## Installation & Execution
 `git clone https://github.com/ertw/splat-wrapper.git`
+
 `cd splat-wrapper`
+
 `node main.js`
 
 ## Configuration
 Currently the following setting must be configured by editing main.js:
-
+```
 name:"site-name"
 lat:"00.000000"
 long:"00.000000"
@@ -19,6 +21,7 @@ transmitter_height:"30"
 groundcover_height:"10"
 //color to use for viewshed bitmap
 bitmap_color: "#FF0000"
+```
 
 ## Example output
 ![viewshed example](https://dl.dropboxusercontent.com/u/19112553/hosted/viewshed.png)
