@@ -26,4 +26,4 @@ bitmap_color: "#FF0000"
 ```
 
 ## Example output
-![viewshed example](https://dl.dropboxusercontent.com/u/19112553/hosted/viewshed.png)
+![](viewshed-example.png)
